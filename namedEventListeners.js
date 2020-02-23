@@ -17,8 +17,7 @@ function removeNamedEventListener(name) {
 }
 
 // Make some aliases so it is easier to type
-let addNEL = addNamedEventListener
-let removeNEL = removeNamedEventListener
+let [addNEL, removeNEL] = [addNamedEventListener, removeNamedEventListener]
 
 Object.defineProperty(addNamedEventListener, '_', {
 	value: {},
