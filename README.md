@@ -1,2 +1,2 @@
 # NamedEventListeners
-Makes named event listeners so remove event listeners are more easier
+Makes named event listeners so removing event listeners are easier.
