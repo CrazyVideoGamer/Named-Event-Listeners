@@ -1,7 +1,7 @@
 # Named Event Listeners
 Makes named event listeners so removing event listeners are easier.
 
-<span style="color: yellow">Warning: code not tested</span>
+<span style="color:blue">Warning: code not tested</span>
 ## Installation:
 Download from github, or add this javascript file: https://raw.githubusercontent.com/CrazyVideoGamez/Named-Event-Listeners/master/namedEventListeners.js
 
