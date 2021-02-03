@@ -1,4 +1,4 @@
-# NamedEventListeners
+# Named Event Listeners
 Makes named event listeners so removing event listeners are easier.
 <span style="color: yellow">Warning: code not tested</span>
 ## Installation:
@@ -57,17 +57,20 @@ getNamedEventListeners()
 ```
 No arguments
 ### addNEL
+Alias of addNamedEventListener
 ```js
 addNEL(name, element, type, listener, options={})
 ```
 Same as addNamedEventListener
 ### removeNEL
+Alias of removeNamedEventListener
 ```js
 removeNEL(name)
 ```
 Same as removeNamedEventListener
 ### getNEL
+Alias of getNamedEventListeners
 ```js
 getNELs()
 ```
-Returns 
+Same as getNamedEventListeners
