@@ -40,34 +40,43 @@ Add a named event listener
 addNamedEventListener(name, element, type, listener, options={})
 ```
 name: the name of named event listener, type string
+<br />
 element: the target elment, type HTML object
+<br />
 type: What type of named event listener it is, e.g. keydown. type string
+<br />
 listener: The listener to run when event is detected. type function
+<br />
 options: the options for the named event listener (same as normal named event listener options). type object
+<br />
 ### removeNamedEventListener
 Remove a named event listener
 ```js
 removeNamedEventListener(name)
 ```
 name: the name of named event listener, type string
+<br />
 ### getNamedEventListeners
 Get all named event listeners
 ```js
 getNamedEventListeners()
 ```
 No arguments
+<br />
 ### addNEL
 Alias of addNamedEventListener
 ```js
 addNEL(name, element, type, listener, options={})
 ```
 Same as addNamedEventListener
+<br />
 ### removeNEL
 Alias of removeNamedEventListener
 ```js
 removeNEL(name)
 ```
 Same as removeNamedEventListener
+<br />
 ### getNEL
 Alias of getNamedEventListeners
 ```js
