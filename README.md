@@ -13,3 +13,23 @@ And, to insert into html:
 ```html
 <script src="https://raw.githubusercontent.com/CrazyVideoGamez/Named-Event-Listeners/master/namedEventListeners.min.js"></script>
 ```
+## Usage
+You can use Named Event Listeners as so:
+```js
+el = document.querySelector("#target-element");
+
+// You can also use addNEL
+addNamedEventListener("Cool Event Listener", el, "keydown", (event) => {
+  ...
+})
+```
+Get all Named Event Listeners
+```js
+// You can also use getNEL
+console.log(getNamedEventListeners())
+```
+And then remove:
+```js
+// You can also use removeNEL
+removeNamedEventListener("Cool Event Listener")
+```
