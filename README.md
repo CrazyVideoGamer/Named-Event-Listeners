@@ -14,7 +14,7 @@ And, to insert into html:
 <script src="https://raw.githubusercontent.com/CrazyVideoGamez/Named-Event-Listeners/master/namedEventListeners.min.js"></script>
 ```
 ## Usage
-You can use Named Event Listeners as so:
+You can use named event listeners as so:
 ```js
 el = document.querySelector("#target-element");
 
@@ -23,7 +23,7 @@ addNamedEventListener("Cool Event Listener", el, "keydown", (event) => {
   ...
 })
 ```
-Get all Named Event Listeners
+Get all named event listeners
 ```js
 // You can also use getNEL
 console.log(getNamedEventListeners())
@@ -33,3 +33,10 @@ And then remove:
 // You can also use removeNEL
 removeNamedEventListener("Cool Event Listener")
 ```
+## Full options
+### addNamedEventListener
+```js
+addNamedEventListener(name, element, type, listener, options={})
+```
+name: name of named event listener, a string
+element: 
