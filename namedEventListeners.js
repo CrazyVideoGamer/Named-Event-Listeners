@@ -43,7 +43,7 @@ function removeNamedEventListener(name) {
 }
 
 // Make some aliases so it is easier to type
-let [addNEL, removeNEL, getNEL] = [addNamedEventListener, removeNamedEventListener, getNamedEventListeners]
+let [addNEL, removeNEL, getNELs] = [addNamedEventListener, removeNamedEventListener, getNamedEventListeners]
 
 // Makes _ non-writeable
 Object.defineProperty(addNamedEventListener, '_', {
@@ -51,4 +51,4 @@ Object.defineProperty(addNamedEventListener, '_', {
 	writeable: false
 })
 
-export {addNamedEventListener, removeNamedEventListener, getNamedEventListeners, addNEL, removeNEL, getNEL}
+export {addNamedEventListener, removeNamedEventListener, getNamedEventListeners, addNEL, removeNEL, getNELs}
