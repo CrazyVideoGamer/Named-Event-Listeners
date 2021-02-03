@@ -14,7 +14,12 @@ const deepCopy = obj => {
     return outObject
 }
 
-function addNamedEventListener(name, type, listener, element=document, options={}) {
+
+function addNamedEventListener(name, element, type, listener, options={}) {
+	if (element === '' || element === null) {
+		element = document;
+	}
+	
 	_namede = addNamedEventListener._
 	if (name in _namede && _namede[name] == element) {
 		throw "Name already exists"
